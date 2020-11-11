@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'be_well_hub_22521.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "be_well_hub_22521.settings")
 
 application = get_wsgi_application()
